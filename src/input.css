@@ -1,0 +1,18 @@
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+    .button{
+        @apply px-6 py-4 border-none
+        bg-black text-white uppercase rounded-md 
+        tracking-wider ml-2;
+    }
+
+    .menu{
+        @apply text-white no-underline py-6 px-3 font-sans hover:text-black hover:bg-slate-300;
+    }
+
+    .pricingItems{
+        @apply px-40 py-5 text-xl
+    }
+}
